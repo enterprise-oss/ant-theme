@@ -1,13 +1,25 @@
 {
   "name": "@enterprise-oss/ant-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "antd theme for Osso",
-  "main": "index.less",
-  "repository": "git@github.com:enterprise-oss/ant-theme.git",
+  "main": "dist/index.less",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/enterprise-oss/ant-theme.git"
+  },
   "author": "Sam Bauch <sbauch@gmail.com>",
   "license": "MIT",
   "private": false,
   "peerDependencies": {
     "antd": "^4.6.3"
+  },
+  "bugs": {
+    "url": "https://github.com/enterprise-oss/ant-theme/issues"
+  },
+  "homepage": "https://github.com/enterprise-oss/ant-theme#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
