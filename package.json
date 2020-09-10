@@ -1,0 +1,13 @@
+{
+  "name": "@enterprise-oss/ant-theme",
+  "version": "1.0.0",
+  "description": "antd theme for Osso",
+  "main": "index.less",
+  "repository": "git@github.com:enterprise-oss/ant-theme.git",
+  "author": "Sam Bauch <sbauch@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "antd": "^4.6.3"
+  }
+}
