@@ -1,18 +1,9 @@
 // https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
 
-
-@html-selector: 'html.antd';
-
+@import 'node_modules/antd/dist/antd.less';
 @import 'node_modules/antd/lib/style/themes/default.less';
-@import 'node_modules/antd/lib/style/core/index.less';
 
-@import 'node_modules/antd/lib/style/mixins/index.less';
-@import 'node_modules/antd/lib/style/core/base.less';
-@import 'node_modules/antd/lib/style/core/global.less';
-@import 'node_modules/antd/lib/style/core/iconfont.less';
-@import 'node_modules/antd/lib/style/core/motion.less';
-@import "node_modules/antd/lib/style/components.less";
-
+@html-selector: html#antd;
 @font-family: 'DM Sans', sans-serif;
 @primary-color: #4E61A5;
 @layout-header-background: @white;
@@ -23,10 +14,13 @@
 
 @error-color: @red-base;
 
-h2, h3 {
-  font-weight: 600;
-}
 
-.ant-modal-title {
-  font-weight: 600;
+html#antd {
+  h2, h3 {
+    font-weight: 600;
+  }
+
+  .ant-modal-title {
+    font-weight: 600;
+  }
 }
