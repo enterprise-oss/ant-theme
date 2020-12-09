@@ -5,6 +5,5 @@ steps:
   - name: "Push :npm:"
     commands: 
     - "yarn install"
-    - "yarn build"
     - "npm publish"
     branches: "main"

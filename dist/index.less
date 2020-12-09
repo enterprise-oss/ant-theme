@@ -10,9 +10,7 @@
 @red-base: #EC5B56;
 @gold-base: #FFCD83;
 @green-base: #73BA9B;
-
 @error-color: @red-base;
-
 
 html#antd {
   h2, h3 {
@@ -22,4 +20,15 @@ html#antd {
   .ant-modal-title {
     font-weight: 600;
   }
-}
+
+  .ant-modal-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ant-pagination-item,
+  .ant-pagination-jump-next,
+  .ant-pagination-jump-prev {
+      display: none;
+  }
+}  
