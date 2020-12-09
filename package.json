@@ -1,6 +1,6 @@
 {
   "name": "@enterprise-oss/ant-theme",
-  "version": "1.0.6.alpha.1",
+  "version": "1.0.6-alpha.1",
   "description": "antd theme for Osso",
   "main": "dist/index.less",
   "repository": {
