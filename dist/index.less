@@ -2,6 +2,7 @@
 @import 'node_modules/antd/lib/style/themes/default.less';
 @import 'node_modules/antd/dist/antd.less';
 
+@html-selector: html#antd;
 @font-family: 'DM Sans', sans-serif;
 @primary-color: #4E61A5;
 @layout-header-background: @white;
@@ -9,24 +10,25 @@
 @red-base: #EC5B56;
 @gold-base: #FFCD83;
 @green-base: #73BA9B;
-
 @error-color: @red-base;
 
-h2, h3 {
-  font-weight: 600;
-}
+html#antd {
+  h2, h3 {
+    font-weight: 600;
+  }
 
-.ant-modal-title {
-  font-weight: 600;
-}
+  .ant-modal-title {
+    font-weight: 600;
+  }
 
-.ant-modal-footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.ant-pagination-item,
-.ant-pagination-jump-next,
-.ant-pagination-jump-prev {
-    display: none;
-}
+  .ant-modal-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ant-pagination-item,
+  .ant-pagination-jump-next,
+  .ant-pagination-jump-prev {
+      display: none;
+  }
+}  
